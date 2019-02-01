@@ -10,7 +10,7 @@ public class NewTest {
  
  public WebDriver driver;
  
-  @Test
+  @Test // Sample Test
   public void openMyBlog() {
  driver.get("https://www.softwaretestingmaterial.com/");
   }
