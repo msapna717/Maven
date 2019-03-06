@@ -5,7 +5,7 @@ import org.apache.commons.mail.Email;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
 
-public class SendEmailTest {
+public class SendEmail {
 
 	public static void sendMail() throws EmailException {
 		System.out.println("----test started---");
@@ -17,7 +17,7 @@ public class SendEmailTest {
 		email.setFrom("testSB2000@gmail.com");
 		email.setSubject("TestMail");
 		email.setMsg("This is a test mail ... :-)");
-		email.addTo("msapna717@gmail.com");
+		email.addTo("ishan.sharma@gmail.com");
 		email.send();
 		System.out.println("----email sent---");
 

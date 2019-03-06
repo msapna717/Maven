@@ -24,7 +24,7 @@ public class EmailWithAttachmentTest {
 	@AfterMethod
 	public void afterClass(ITestResult result) throws EmailException {
 		if (result.getStatus() == (ITestResult.FAILURE)) {
-			SendEmailTest.sendMail();
+			SendEmailWithAttachment.sendMail();
 			System.out.println("---test failed email sent----");
 
 		}

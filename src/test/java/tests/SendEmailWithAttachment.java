@@ -20,7 +20,7 @@ public class SendEmailWithAttachment {
 		email.setAuthenticator(new DefaultAuthenticator("testSB2000@gmail.com", "Testing@79"));
 		email.setSSLOnConnect(true);
 		email.setHostName("smtp.googlemail.com");
-		email.addTo("msapna717@gmail.com", "sapna mishra");
+		email.addTo("ishan.sharma@sourcebits.com", "sapna mishra");
 		email.setFrom("testSB2000@gmail.com", "Me");
 		email.setSubject("The picture");
 		email.setMsg("Here is the picture you wanted");
