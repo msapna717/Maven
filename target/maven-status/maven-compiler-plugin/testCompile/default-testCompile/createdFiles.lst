@@ -1,1 +1,8 @@
+ExtentReportsDemo.class
+tests/SendEmail.class
+tests/EmailWithAttachmentTest.class
 tests/NewTest.class
+extentReportEmail/SendReport.class
+tests/NewEmailTest.class
+tests/SendEmailWithAttachment.class
+AutomaticScreenshoExtentReport.class

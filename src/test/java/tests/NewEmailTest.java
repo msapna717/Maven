@@ -24,7 +24,7 @@ public class NewEmailTest {
 	@AfterMethod
 	public void afterClass(ITestResult result) throws EmailException {
 		if (result.getStatus() == (ITestResult.FAILURE)) {
-			SendEmailTest.sendMail();
+			SendEmail.sendMail();
 			System.out.println("---test failed email sent----");
 
 		}

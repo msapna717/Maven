@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.EmailWithAttachmentTest">
+      <class name="extentReportEmail.MailReportClass">
         <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="myTest"/>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="failTest"/>
         </methods>
-      </class> <!-- tests.EmailWithAttachmentTest -->
+      </class> <!-- extentReportEmail.MailReportClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
