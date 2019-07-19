@@ -1,5 +1,6 @@
 ExtentReportsDemo.class
 tests/SendEmail.class
+extentReportEmail/MailReportClass.class
 tests/EmailWithAttachmentTest.class
 tests/NewTest.class
 extentReportEmail/SendReport.class

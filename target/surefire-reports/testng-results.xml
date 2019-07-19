@@ -2,46 +2,46 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24932" started-at="2019-03-08T12:30:12Z" finished-at="2019-03-08T12:30:37Z">
+  <suite name="Suite" duration-ms="48025" started-at="2019-03-12T10:06:06Z" finished-at="2019-03-12T10:06:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24932" started-at="2019-03-08T12:30:12Z" finished-at="2019-03-08T12:30:37Z">
+    <test name="Test" duration-ms="48025" started-at="2019-03-12T10:06:06Z" finished-at="2019-03-12T10:06:54Z">
       <class name="extentReportEmail.MailReportClass">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="startReport" is-config="true" duration-ms="227" started-at="2019-03-08T18:00:12Z" finished-at="2019-03-08T18:00:12Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="startReport" is-config="true" duration-ms="221" started-at="2019-03-12T15:36:06Z" finished-at="2019-03-12T15:36:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="setup" is-config="true" duration-ms="8349" started-at="2019-03-08T18:00:12Z" finished-at="2019-03-08T18:00:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="setup" is-config="true" duration-ms="23286" started-at="2019-03-12T15:36:06Z" finished-at="2019-03-12T15:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="passTest()[pri:1, instance:extentReportEmail.MailReportClass@73f792cf]" name="passTest" duration-ms="7" started-at="2019-03-08T18:00:20Z" finished-at="2019-03-08T18:00:20Z">
+        <test-method status="PASS" signature="passTest()[pri:1, instance:extentReportEmail.MailReportClass@77b52d12]" name="passTest" duration-ms="32" started-at="2019-03-12T15:36:30Z" finished-at="2019-03-12T15:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="getResult" is-config="true" duration-ms="207" started-at="2019-03-08T18:00:20Z" finished-at="2019-03-08T18:00:21Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="getResult" is-config="true" duration-ms="208" started-at="2019-03-12T15:36:30Z" finished-at="2019-03-12T15:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=passTest status=SUCCESS method=MailReportClass.passTest()[pri:1, instance:extentReportEmail.MailReportClass@73f792cf] output={null}]]]>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=MailReportClass.passTest()[pri:1, instance:extentReportEmail.MailReportClass@77b52d12] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="setup" is-config="true" duration-ms="7376" started-at="2019-03-08T18:00:21Z" finished-at="2019-03-08T18:00:28Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="setup" is-config="true" duration-ms="10211" started-at="2019-03-12T15:36:30Z" finished-at="2019-03-12T15:36:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="failTest()[pri:2, instance:extentReportEmail.MailReportClass@73f792cf]" name="failTest" duration-ms="1" started-at="2019-03-08T18:00:28Z" finished-at="2019-03-08T18:00:28Z">
+        <test-method status="FAIL" signature="failTest()[pri:2, instance:extentReportEmail.MailReportClass@77b52d12]" name="failTest" duration-ms="1" started-at="2019-03-12T15:36:40Z" finished-at="2019-03-12T15:36:40Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
 	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
 	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
 	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
-	at extentReportEmail.MailReportClass.failTest(MailReportClass.java:67)
+	at extentReportEmail.MailReportClass.failTest(MailReportClass.java:73)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,29 +77,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="getResult" is-config="true" duration-ms="163" started-at="2019-03-08T18:00:28Z" finished-at="2019-03-08T18:00:28Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="getResult" is-config="true" duration-ms="157" started-at="2019-03-12T15:36:40Z" finished-at="2019-03-12T15:36:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=failTest status=FAILURE method=MailReportClass.failTest()[pri:2, instance:extentReportEmail.MailReportClass@73f792cf] output={null}]]]>
+                <![CDATA[[TestResult name=failTest status=FAILURE method=MailReportClass.failTest()[pri:2, instance:extentReportEmail.MailReportClass@77b52d12] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="setup" is-config="true" duration-ms="7968" started-at="2019-03-08T18:00:28Z" finished-at="2019-03-08T18:00:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="setup" is-config="true" duration-ms="13292" started-at="2019-03-12T15:36:40Z" finished-at="2019-03-12T15:36:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="skipTest()[pri:3, instance:extentReportEmail.MailReportClass@73f792cf]" name="skipTest" duration-ms="1" started-at="2019-03-08T18:00:36Z" finished-at="2019-03-08T18:00:36Z">
+        <test-method status="SKIP" signature="skipTest()[pri:3, instance:extentReportEmail.MailReportClass@77b52d12]" name="skipTest" duration-ms="1" started-at="2019-03-12T15:36:54Z" finished-at="2019-03-12T15:36:54Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping - This is not ready for testing ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
-	at extentReportEmail.MailReportClass.skipTest(MailReportClass.java:74)
+	at extentReportEmail.MailReportClass.skipTest(MailReportClass.java:80)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,18 +135,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="getResult" is-config="true" duration-ms="179" started-at="2019-03-08T18:00:36Z" finished-at="2019-03-08T18:00:36Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="getResult" is-config="true" duration-ms="161" started-at="2019-03-12T15:36:54Z" finished-at="2019-03-12T15:36:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=skipTest status=SKIP method=MailReportClass.skipTest()[pri:3, instance:extentReportEmail.MailReportClass@73f792cf] output={null}]]]>
+                <![CDATA[[TestResult name=skipTest status=SKIP method=MailReportClass.skipTest()[pri:3, instance:extentReportEmail.MailReportClass@77b52d12] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReportEmail.MailReportClass@73f792cf]" name="endReport" is-config="true" duration-ms="414" started-at="2019-03-08T18:00:36Z" finished-at="2019-03-08T18:00:37Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReportEmail.MailReportClass@77b52d12]" name="endReport" is-config="true" duration-ms="411" started-at="2019-03-12T15:36:54Z" finished-at="2019-03-12T15:36:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
